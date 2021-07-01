@@ -1,0 +1,13 @@
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\bin\Release\netcoreapp3.1\Kalkulacka.exe
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\bin\Release\netcoreapp3.1\Kalkulacka.deps.json
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\bin\Release\netcoreapp3.1\Kalkulacka.runtimeconfig.json
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\bin\Release\netcoreapp3.1\Kalkulacka.runtimeconfig.dev.json
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\bin\Release\netcoreapp3.1\Kalkulacka.dll
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\bin\Release\netcoreapp3.1\Kalkulacka.pdb
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\obj\Release\netcoreapp3.1\Kalkulacka.AssemblyInfoInputs.cache
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\obj\Release\netcoreapp3.1\Kalkulacka.AssemblyInfo.cs
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\obj\Release\netcoreapp3.1\Kalkulacka.csproj.CoreCompileInputs.cache
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\obj\Release\netcoreapp3.1\Kalkulacka.dll
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\obj\Release\netcoreapp3.1\Kalkulacka.pdb
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\obj\Release\netcoreapp3.1\Kalkulacka.genruntimeconfig.cache
+C:\Users\Uhlir\Documents\krouzek\test\Kalkulacka\obj\Release\netcoreapp3.1\Kalkulacka.csprojAssemblyReference.cache
