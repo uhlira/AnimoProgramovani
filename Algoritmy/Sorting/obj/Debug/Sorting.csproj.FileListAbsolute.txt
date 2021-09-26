@@ -1,0 +1,7 @@
+W:\School\AnimoProgramovani2\Algoritmy\Sorting\bin\Debug\Sorting.exe.config
+W:\School\AnimoProgramovani2\Algoritmy\Sorting\bin\Debug\Sorting.exe
+W:\School\AnimoProgramovani2\Algoritmy\Sorting\bin\Debug\Sorting.pdb
+W:\School\AnimoProgramovani2\Algoritmy\Sorting\obj\Debug\Sorting.csprojAssemblyReference.cache
+W:\School\AnimoProgramovani2\Algoritmy\Sorting\obj\Debug\Sorting.csproj.CoreCompileInputs.cache
+W:\School\AnimoProgramovani2\Algoritmy\Sorting\obj\Debug\Sorting.exe
+W:\School\AnimoProgramovani2\Algoritmy\Sorting\obj\Debug\Sorting.pdb

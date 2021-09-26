@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Uhlir\\Documents\\krouzek\\test\\Kalkulacka\\Kalkulacka.csproj": {}
+    "w:\\School\\AnimoProgramovani2\\Kalkulacka\\Kalkulacka.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Uhlir\\Documents\\krouzek\\test\\Kalkulacka\\Kalkulacka.csproj": {
+    "w:\\School\\AnimoProgramovani2\\Kalkulacka\\Kalkulacka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Uhlir\\Documents\\krouzek\\test\\Kalkulacka\\Kalkulacka.csproj",
+        "projectUniqueName": "w:\\School\\AnimoProgramovani2\\Kalkulacka\\Kalkulacka.csproj",
         "projectName": "Kalkulacka",
-        "projectPath": "C:\\Users\\Uhlir\\Documents\\krouzek\\test\\Kalkulacka\\Kalkulacka.csproj",
+        "projectPath": "w:\\School\\AnimoProgramovani2\\Kalkulacka\\Kalkulacka.csproj",
         "packagesPath": "C:\\Users\\Uhlir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Uhlir\\Documents\\krouzek\\test\\Kalkulacka\\obj\\",
+        "outputPath": "w:\\School\\AnimoProgramovani2\\Kalkulacka\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Uhlir\\AppData\\Roaming\\NuGet\\NuGet.Config",
