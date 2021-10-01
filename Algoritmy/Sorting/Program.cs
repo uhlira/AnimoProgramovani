@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,36 +12,85 @@ namespace Sorting
     {
         static void Main(string[] args)
         {
-            const int ARRAY_SIZE_SMALL = 20;
-            const int ARRAY_SIZE_MEDIUM = 1000;
-            const int ARRAY_SIZE_BIG = 1000000;
+            const int ARRAY_SIZE = 10;
 
-            int[] originalArraySmall = new int[ARRAY_SIZE_SMALL];
-            Array.ForEach<int>(originalArraySmall, x => x = new Random().Next(-ARRAY_SIZE_SMALL, ARRAY_SIZE_SMALL));
-
-            int[] originalArrayMedium = new int[ARRAY_SIZE_MEDIUM];
-            Array.ForEach<int>(originalArrayMedium, x => x = new Random().Next(-ARRAY_SIZE_MEDIUM, ARRAY_SIZE_MEDIUM));
-
-            int[] originalArrayBig = new int[ARRAY_SIZE_BIG];
-            Array.ForEach<int>(originalArrayBig, x => x = new Random().Next(-ARRAY_SIZE_BIG, ARRAY_SIZE_BIG));
+            int[] originalArray = new int[ARRAY_SIZE];
+            for (int i = 0; i < originalArray.Length; i++)
+            {
+                originalArray[i] = new Random().Next(-10, 10);
+            }
+            //Array.ForEach<int>(originalArray, x => x = new Random().Next(-10, 10));
 
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Reset();
 
+            RNGCryptoServiceProvider random = new RNGCryptoServiceProvider();
+
+            PrintArray(originalArray);
             stopWatch.Start();
-            SelectionSort(originalArraySmall);            
-            Console.WriteLine("SelectionSort on small array duration -> " + stopWatch.ElapsedMilliseconds);
+            SelectionSort(originalArray);            
+            Console.WriteLine("SelectionSort duration {0} ms", stopWatch.Elapsed.TotalMilliseconds);
+            if (!IsSorted(originalArray)) Console.WriteLine("Array is not sorted !!!");
             stopWatch.Reset();
 
+            PrintArray(originalArray);
+            originalArray = new int[ARRAY_SIZE];
+            originalArray = originalArray.OrderBy(x => Next(random)).ToArray();
+            PrintArray(originalArray);
+            if (IsSorted(originalArray)) Console.WriteLine("Array is sorted !!!");
             stopWatch.Start();
-            SelectionSort(originalArrayMedium);
-            Console.WriteLine("SelectionSort on medium array duration -> " + stopWatch.ElapsedMilliseconds);
+            BubbleSort(originalArray);
+            Console.WriteLine("BubbleSort duration {0} ms", stopWatch.Elapsed.TotalMilliseconds);
+            if (!IsSorted(originalArray)) Console.WriteLine("Array is not sorted !!!");
             stopWatch.Reset();
 
+            originalArray = new int[ARRAY_SIZE];
+            Array.ForEach<int>(originalArray, x => x = new Random().Next(-ARRAY_SIZE, ARRAY_SIZE));
             stopWatch.Start();
-            SelectionSort(originalArrayBig);
-            Console.WriteLine("SelectionSort on medium array duration -> " + stopWatch.ElapsedMilliseconds);
+            InsertionSort(originalArray);
+            Console.WriteLine("InsertionSort duration {0} ms", stopWatch.Elapsed.TotalMilliseconds);
+            if (!IsSorted(originalArray)) Console.WriteLine("Array is not sorted !!!");
             stopWatch.Reset();
+
+            originalArray = new int[ARRAY_SIZE];
+            Array.ForEach<int>(originalArray, x => x = new Random().Next(-ARRAY_SIZE, ARRAY_SIZE));
+            stopWatch.Start();
+            HeapSort(originalArray);
+            Console.WriteLine("HeapSort duration {0} ms", stopWatch.Elapsed.TotalMilliseconds);
+            if (!IsSorted(originalArray)) Console.WriteLine("Array is not sorted !!!");
+            stopWatch.Reset();
+
+            originalArray = new int[ARRAY_SIZE];
+            Array.ForEach<int>(originalArray, x => x = new Random().Next(-ARRAY_SIZE, ARRAY_SIZE));
+            stopWatch.Start();
+            MergeSort(originalArray);
+            Console.WriteLine("MergeSort duration {0} ms", stopWatch.Elapsed.TotalMilliseconds);
+            if (!IsSorted(originalArray)) Console.WriteLine("Array is not sorted !!!");
+            stopWatch.Reset();
+
+            originalArray = new int[ARRAY_SIZE];
+            Array.ForEach<int>(originalArray, x => x = new Random().Next(-ARRAY_SIZE, ARRAY_SIZE));
+            stopWatch.Start();
+            QuickSort(originalArray, 0, originalArray.Length - 1);
+            Console.WriteLine("QuickSort duration {0} ms", stopWatch.Elapsed.TotalMilliseconds);
+            if (!IsSorted(originalArray)) Console.WriteLine("Array is not sorted !!!");
+            stopWatch.Reset();
+
+            Console.ReadKey();
+        }
+
+        static int Next(RNGCryptoServiceProvider random)
+        {
+            byte[] randomInt = new byte[4];
+            random.GetBytes(randomInt);
+            return Convert.ToInt32(randomInt[0]);
+        }
+
+        static void PrintArray(int[] array) 
+        {
+            foreach (int i in array)
+                Console.Write(i);
+            Console.WriteLine();
         }
 
         /*
@@ -104,7 +154,7 @@ namespace Sorting
         Postupně vybírá prvky z nesetříděné části a vkládá je mezi prvky v setříděné části tak, aby zůstala setříděná. 
         Od toho jeho jméno - vkládá prvek přesně tam, kam patří a nedělá tedy žádné zbytečné kroky, jako například Bubble sort.
          */
-        public static void ÏnsertionSort(int[] list)
+        public static void InsertionSort(int[] list)
         {
             int item, j;
             for (int i = 1; i <= (list.Length - 1); i++)
@@ -173,7 +223,7 @@ namespace Sorting
         }
 
         // samotne trideni
-        public static void Heapsort(int[] list)
+        public static void HeapSort(int[] list)
         {
             Heapify(list);
             int index = list.Length - 1; //posledni prvek
@@ -258,44 +308,68 @@ namespace Sorting
         Povšimněte si, že jsem napsal přeuspořádá, nikoli setřídí. Prvky jsou tedy mezi sebou stále rozházené a jediné setřídění spočívá v jejich rozdělení pivotem.
          */
         // preusporada pole na prvky mensi nez pivot, pivot a prvky vetsi nez pivot
-        public static int Divide(int[] list, int left, int right, int pivot)
+        private static void QuickSort(int[] arr, int left, int right)
         {
-            int temp = list[pivot]; // prohozeni pivotu s poslednim prvkem
-            list[pivot] = list[right];
-            list[right] = temp;
-            int i = left;
-            for (int j = left; j < right; j++)
+            if (left < right)
             {
-                if (list[j] < list[right])
-                { // prvek je mensi, nez pivot
-                    temp = list[i]; // prohozeni pivotu s prvkem na pozici
-                    list[i] = list[j];
-                    list[j] = temp;
-                    i++; // posun pozice
+                int pivot = Partition(arr, left, right);
+
+                if (pivot > 1)
+                {
+                    QuickSort(arr, left, pivot - 1);
+                }
+                if (pivot + 1 < right)
+                {
+                    QuickSort(arr, pivot + 1, right);
                 }
             }
-            temp = list[i]; // prohozeni pivotu zpet
-            list[i] = list[right];
-            list[right] = temp;
-            return i; // vrati novy index pivotu
+
         }
 
-        public static void LimitedQuicksort(int[] list, int left, int right)
+        private static int Partition(int[] arr, int left, int right)
         {
-            if (right >= left)
-            { // podminka rekurze
-                int pivot = left; // vyber pivotu
-                int new_pivot = Divide(list, left, right, pivot);
-                // rekurzivni zavolani na obe casti pole
-                LimitedQuicksort(list, left, new_pivot - 1);
-                LimitedQuicksort(list, new_pivot + 1, right);
+            int pivot = arr[left];
+            while (true)
+            {
+
+                while (arr[left] < pivot)
+                {
+                    left++;
+                }
+
+                while (arr[right] > pivot)
+                {
+                    right--;
+                }
+
+                if (left < right)
+                {
+                    if (arr[left] == arr[right]) return right;
+
+                    int temp = arr[left];
+                    arr[left] = arr[right];
+                    arr[right] = temp;
+
+
+                }
+                else
+                {
+                    return right;
+                }
             }
         }
 
-        // zavola omezeny quicksort na cele pole
-        public static void Quicksort(int[] list)
+        public static bool IsSorted(int[] array)
         {
-            LimitedQuicksort(list, 0, list.Length - 1);
+            for (int i = 1; i < array.Length; i++)
+            {
+                if (array[i - 1] > array[i])
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }
