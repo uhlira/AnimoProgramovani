@@ -1,9 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+/*
+Program načte seznam stran ze souboru a vypise ho
+Potom se cyklicky pta jakou stranu chceme zvolit
+Po zadani END volby konci a vypisou se vysledky
+ */
 
 namespace VolebniPristroj
 {
@@ -18,7 +21,7 @@ namespace VolebniPristroj
             Console.WriteLine("Můžete vybírat z těchto stran");
 
             //string[] parties = LoadParties(FILENAME);  
-            string[] parties = new string[] { "ANO" };
+            string[] parties = new string[] { "ANO", "TOP095614145814", "ODS", "Piráti" };
             if (parties != null)
             {
                 PrintParties(parties);
@@ -27,12 +30,12 @@ namespace VolebniPristroj
             int[] votes = new int[parties.Length];
 
             Console.WriteLine("Přejete si upravit seznam stran? A/N");
-            if (Console.ReadLine().ToUpper() == "A") 
+            if (Console.ReadLine().ToUpper() == "A")
             {
                 //tady bude kod pro editaci seznamu stran
             }
 
-            while (true)           
+            while (true)
             {
                 Console.WriteLine("Zvolte stranu:");
 
@@ -55,6 +58,34 @@ namespace VolebniPristroj
                     else Console.WriteLine("Nezadali jste číslo");
                 }
             }
+
+            for (int i = 0; i < votes.Length; i++)
+            {
+                Console.WriteLine(
+                    "Strana "
+                    + parties[i]
+                    + " získala "
+                    + Math.Round(((float)votes[i] / votes.Sum()) * 100, 2) + " %"
+                    + "  "
+                    + votes[i] + "/" + votes.Sum()
+                    + " hlasů"
+                    );
+            }
+
+            Console.WriteLine();
+            for (int i = 0; i < votes.Length; i++)
+            {   //parties.Max(x => x.Length) + 5
+                Console.Write(parties[i] + "".PadLeft(10 - parties[i].Length));
+                string s = "";
+                for (int j = 0; j < votes[i]; j++)
+                {
+                    s += "*";
+                }
+                Console.WriteLine(s);
+            }
+
+
+            Console.ReadKey();
         }
 
         static bool SaveParties(string path, string[] parties)
