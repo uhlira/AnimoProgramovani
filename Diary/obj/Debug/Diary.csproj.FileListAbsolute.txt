@@ -1,0 +1,7 @@
+W:\School\AnimoProgramovani2\Diary\bin\Debug\Diary.exe.config
+W:\School\AnimoProgramovani2\Diary\bin\Debug\Diary.exe
+W:\School\AnimoProgramovani2\Diary\bin\Debug\Diary.pdb
+W:\School\AnimoProgramovani2\Diary\obj\Debug\Diary.csproj.AssemblyReference.cache
+W:\School\AnimoProgramovani2\Diary\obj\Debug\Diary.csproj.CoreCompileInputs.cache
+W:\School\AnimoProgramovani2\Diary\obj\Debug\Diary.exe
+W:\School\AnimoProgramovani2\Diary\obj\Debug\Diary.pdb
