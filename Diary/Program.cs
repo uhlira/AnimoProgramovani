@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Diary
 {
@@ -13,34 +14,43 @@ namespace Diary
             Diary diary = new Diary();
             DiaryAction action = DiaryAction.EXIT_APP;
 
-            do
+            try
             {
-                PrintMenu();
-
-                action = ReadMenuKey();
-
-                switch (action)
+                do
                 {
-                    case DiaryAction.ADD_RECORD: diary.Add(PrintAddRecord());
-                        break;
-                    case DiaryAction.PRINT_RECORDS:
-                        {
-                            foreach (Record r in diary.Records)
+                    PrintMenu();
+
+                    action = ReadMenuKey();
+
+                    switch (action)
+                    {
+                        case DiaryAction.ADD_RECORD:
+                            diary.Add(PrintAddRecord());
+                            break;
+                        case DiaryAction.PRINT_RECORDS:
                             {
-                                Console.WriteLine(r.ToString());
+                                foreach (Record r in diary.Records)
+                                {
+                                    Console.WriteLine(r.ToString());
+                                }
                             }
-                        }
-                        break;
-                    case DiaryAction.SAVE_DIARY:
-                        break;
-                    default:
-                        break;
-                }
+                            break;
+                        case DiaryAction.SAVE_DIARY:
+                            diary.Save();
+                            break;
+                        default:
+                            break;
+                    }
 
+                    Console.ReadKey();
+                    Console.Clear();
+                } while (action != DiaryAction.EXIT_APP);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
                 Console.ReadKey();
-                Console.Clear();
-            } while (action != DiaryAction.EXIT_APP);
-
+            }
             //Console.ReadKey();
         }
 
@@ -61,6 +71,7 @@ namespace Diary
                 case '1': return DiaryAction.ADD_RECORD;
                 case '2': return DiaryAction.PRINT_RECORDS;
                 case '3': return DiaryAction.SAVE_DIARY;
+                case '4': return DiaryAction.REMOVE_RECORD;
 
                 case '0': return DiaryAction.EXIT_APP;
 
@@ -73,7 +84,8 @@ namespace Diary
             ADD_RECORD, 
             PRINT_RECORDS, 
             SAVE_DIARY, 
-            EXIT_APP
+            EXIT_APP, 
+            REMOVE_RECORD
         }
 
         public static Record PrintAddRecord()

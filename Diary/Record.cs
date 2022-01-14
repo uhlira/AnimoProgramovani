@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,7 +10,6 @@ namespace Diary
 {
     public class Record
     {
-
         DateTime recordTime;
         public DateTime RecordTime // { get; set; }
         {
@@ -33,6 +34,7 @@ namespace Diary
             {
                 if (value.Length < 50)
                     title = value;
+                else throw new Exception("Too much chars");
             }
         }
 
@@ -44,7 +46,11 @@ namespace Diary
             set
             {
                 if (value.Length < 50000)
+                {
                     text = value;
+                }
+                
+                
             }
         }
 
@@ -79,6 +85,7 @@ namespace Diary
                 Title + "\t" +
                 Text;
         }
+
     }
 
     public class Diary
@@ -101,9 +108,15 @@ namespace Diary
             this.Records = new List<Record>();
         }
 
-        public Diary(List<Record> records)
+        public void Save() 
         {
-            this.Records = records;
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "diary.txt");
+            File.WriteAllText(path, JsonConvert.SerializeObject(this.records));
+        }
+
+        public void Load() 
+        {
+
         }
 
         public void Add(Record record)
