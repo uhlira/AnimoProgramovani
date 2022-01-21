@@ -7,4 +7,3 @@ W:\School\AnimoProgramovani2\Diary\obj\Debug\Diary.exe
 W:\School\AnimoProgramovani2\Diary\obj\Debug\Diary.pdb
 W:\School\AnimoProgramovani2\Diary\bin\Debug\Newtonsoft.Json.dll
 W:\School\AnimoProgramovani2\Diary\bin\Debug\Newtonsoft.Json.xml
-W:\School\AnimoProgramovani2\Diary\obj\Debug\Diary.csproj.CopyComplete

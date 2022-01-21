@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Diary
 {
@@ -90,6 +91,8 @@ namespace Diary
 
     public class Diary
     {
+        public static int StaticNumber;
+
         private List<Record> records;
         public List<Record> Records 
         {
@@ -105,22 +108,27 @@ namespace Diary
 
         public Diary()
         {
-            this.Records = new List<Record>();
+            this.records = new List<Record>();
         }
 
         public void Save() 
         {
             string path = Path.Combine(Directory.GetCurrentDirectory(), "diary.txt");
-            File.WriteAllText(path, JsonConvert.SerializeObject(this.records));
+            File.WriteAllText(path, JsonConvert.SerializeObject(this.records, Formatting.Indented), Encoding.UTF8);
         }
 
         public void Load() 
         {
-
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "diary.txt");
+            this.records = JsonConvert.DeserializeObject<List<Record>>(File.ReadAllText(path));
         }
 
         public void Add(Record record)
         {
+            Console.WriteLine(record.ToString());
+            Console.WriteLine(record.Text.Length);
+            //MessageBox
+
             Record rempty = new Record()
             {
                 RecordTime = DateTime.Now,
