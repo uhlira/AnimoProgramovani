@@ -8,3 +8,4 @@ W:\School\AnimoProgramovani2\FormsCalculator\obj\Debug\FormsCalculator.csproj.Co
 W:\School\AnimoProgramovani2\FormsCalculator\obj\Debug\FormsCalculator.exe
 W:\School\AnimoProgramovani2\FormsCalculator\obj\Debug\FormsCalculator.pdb
 W:\School\AnimoProgramovani2\FormsCalculator\obj\Debug\FormsCalculator.Form1.resources
+w:\School\AnimoProgramovani2\FormsCalculator\obj\Debug\FormsCalculator.csproj.SuggestedBindingRedirects.cache

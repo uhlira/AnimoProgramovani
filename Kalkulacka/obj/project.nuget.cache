@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "LfVWJ1lGK6OhSTL6O6hh5PHuH3Gi1Zc6xVpiLg3YZK6YSkUCRYIVd8SDJ2ZJgbBhdpVOSQ8/P59m6zCM5UJgVw==",
+  "dgSpecHash": "hbtgF6rzLQT+iUgDx0GIqzjcjonwmnmcOVhQH4G+LnW9itAWmIkY58eHxBbuPy+vnvYdkJLb7F4zo8iTOWrxCg==",
   "success": true,
   "projectFilePath": "w:\\School\\AnimoProgramovani2\\Kalkulacka\\Kalkulacka.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Adam Uhlir\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\Adam Uhlir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Adam Uhlir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Adam Uhlir\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

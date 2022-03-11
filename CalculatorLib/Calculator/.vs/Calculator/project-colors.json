@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8a1b0ec9-0b19-4eb7-9a65-22ded33061a7": {
+      "ProjectGuid": "8a1b0ec9-0b19-4eb7-9a65-22ded33061a7",
+      "DisplayName": "Calculator",
+      "ColorIndex": 0
+    },
+    "1ecfaaa2-411b-4e70-b3cd-6a2ff2220a7a": {
+      "ProjectGuid": "1ecfaaa2-411b-4e70-b3cd-6a2ff2220a7a",
+      "DisplayName": "FormsCalculator",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

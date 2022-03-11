@@ -32,13 +32,13 @@ namespace FormsCalculator
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_Today = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbl_NearestBDay = new System.Windows.Forms.Label();
             this.lb_Persons = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lbl_BirthDate = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.lbl_Age = new System.Windows.Forms.Label();
+            this.date_Birthday = new System.Windows.Forms.MonthCalendar();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -67,13 +67,13 @@ namespace FormsCalculator
             this.lbl_Today.TabIndex = 2;
             this.lbl_Today.Text = "label3";
             // 
-            // label4
+            // lbl_NearestBDay
             // 
-            this.label4.Location = new System.Drawing.Point(223, 50);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(205, 18);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.lbl_NearestBDay.Location = new System.Drawing.Point(223, 50);
+            this.lbl_NearestBDay.Name = "lbl_NearestBDay";
+            this.lbl_NearestBDay.Size = new System.Drawing.Size(205, 18);
+            this.lbl_NearestBDay.TabIndex = 3;
+            this.lbl_NearestBDay.Text = "label4";
             // 
             // lb_Persons
             // 
@@ -108,19 +108,19 @@ namespace FormsCalculator
             this.lbl_BirthDate.TabIndex = 7;
             this.lbl_BirthDate.Text = "lbl";
             // 
-            // label7
+            // lbl_Age
             // 
-            this.label7.Location = new System.Drawing.Point(309, 136);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(119, 18);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "lbl";
+            this.lbl_Age.Location = new System.Drawing.Point(309, 136);
+            this.lbl_Age.Name = "lbl_Age";
+            this.lbl_Age.Size = new System.Drawing.Size(119, 18);
+            this.lbl_Age.TabIndex = 8;
+            this.lbl_Age.Text = "lbl";
             // 
-            // monthCalendar1
+            // date_Birthday
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(226, 234);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 9;
+            this.date_Birthday.Location = new System.Drawing.Point(214, 234);
+            this.date_Birthday.Name = "date_Birthday";
+            this.date_Birthday.TabIndex = 9;
             // 
             // button1
             // 
@@ -133,7 +133,7 @@ namespace FormsCalculator
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(228, 433);
+            this.button2.Location = new System.Drawing.Point(241, 433);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 41);
             this.button2.TabIndex = 11;
@@ -144,16 +144,16 @@ namespace FormsCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(440, 486);
+            this.ClientSize = new System.Drawing.Size(448, 481);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.monthCalendar1);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.date_Birthday);
+            this.Controls.Add(this.lbl_Age);
             this.Controls.Add(this.lbl_BirthDate);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lb_Persons);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lbl_NearestBDay);
             this.Controls.Add(this.lbl_Today);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -168,13 +168,13 @@ namespace FormsCalculator
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl_Today;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbl_NearestBDay;
         private System.Windows.Forms.ListBox lb_Persons;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lbl_BirthDate;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.Label lbl_Age;
+        private System.Windows.Forms.MonthCalendar date_Birthday;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }

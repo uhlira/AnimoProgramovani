@@ -1,0 +1,14 @@
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\bin\Debug\FormsCalculator.exe.config
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\bin\Debug\FormsCalculator.exe
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\bin\Debug\FormsCalculator.pdb
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.csproj.AssemblyReference.cache
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.csproj.SuggestedBindingRedirects.cache
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.Properties.Resources.resources
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.csproj.GenerateResource.cache
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.csproj.CoreCompileInputs.cache
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.exe
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.pdb
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.Form1.resources
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\bin\Debug\Calculator.dll
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\bin\Debug\Calculator.pdb
+W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.csproj.CopyComplete

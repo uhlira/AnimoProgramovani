@@ -1,0 +1,5 @@
+W:\School\AnimoProgramovani2\CalculatorLib\Calculator\bin\Debug\Calculator.dll
+W:\School\AnimoProgramovani2\CalculatorLib\Calculator\bin\Debug\Calculator.pdb
+W:\School\AnimoProgramovani2\CalculatorLib\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+W:\School\AnimoProgramovani2\CalculatorLib\Calculator\obj\Debug\Calculator.dll
+W:\School\AnimoProgramovani2\CalculatorLib\Calculator\obj\Debug\Calculator.pdb
