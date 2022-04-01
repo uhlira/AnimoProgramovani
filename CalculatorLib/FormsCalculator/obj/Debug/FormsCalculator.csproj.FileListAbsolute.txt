@@ -8,7 +8,7 @@ W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalcul
 W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.csproj.CoreCompileInputs.cache
 W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.exe
 W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.pdb
-W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.Form1.resources
 W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\bin\Debug\Calculator.dll
 W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\bin\Debug\Calculator.pdb
 W:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.csproj.CopyComplete
+w:\School\AnimoProgramovani2\CalculatorLib\FormsCalculator\obj\Debug\FormsCalculator.CalculatorForm.resources
