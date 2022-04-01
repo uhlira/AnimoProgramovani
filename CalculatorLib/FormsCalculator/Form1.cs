@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NCalc;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,36 +21,56 @@ namespace FormsCalculator
             get { return stringChain; }
             set
             {
-                stringChain = value;
-                //OnPropertyChanged("StringChain");
-                lbl_Result.Text = stringChain;
+                if (!EnteringEnded)
+                {
+                    /*
+                    stringChain = value;
+                    lbl_History.Text = stringChain;
+
+                    if (stringChain == "0")
+                    {
+                        stringChain = String.Empty;
+                    }
+                    */
+                    stringChain = value;
+
+                    if (stringChain.EndsWith("+") || stringChain.EndsWith("-"))
+                    {
+                        //MessageBox.Show(stringChain);
+                        Result += Convert.ToInt32(stringChain.Substring(0, stringChain.Length-1));
+                        stringChain = stringChain.Substring(stringChain.Length - 1, 1);
+                    }
+
+                    lbl_Result.Text = Result.ToString();
+                    lbl_History.Text = StringChain.ToString();
+                }
+
+                if (stringChain.Contains("="))
+                {
+                    EnteringEnded = true;
+                    lbl_Result.Text = ((double)new Expression(stringChain.Substring(0, stringChain.Length - 1) + " + 0.0").Evaluate()).ToString();
+                    //lbl_Result.Text = ((double) new Expression(stringChain.Substring(0, stringChain.Length-1) + " + 0.0").Evaluate()).ToString();
+                }
             }
         }
 
-        public Parentheses Result { get; set; }
+        //public Parentheses Result { get; set; }
+        public int Result { get; set; }
 
-        protected virtual void OnPropertyChanged(string property)
-        {           
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(property));    
-        }
-
-        #region INotifyPropertyChanged Members
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        #endregion
+        private bool EnteringEnded { get; set; } = false;
 
         public CalculatorForm()
         {
             InitializeComponent();
-            if (Result == null) Result = new Parentheses();
-            StringChain = Result.Compute().ToString();
+            //Result = new Parentheses();
+            Result = 0;          
+            StringChain = string.Empty;
+            //StringChain = Result.Compute().ToString();
         }
 
         private void btn_1_Click(object sender, EventArgs e)
         {
-            StringChain = StringChain + 1;
+            StringChain += 1;
         }
 
         private void btn_2_Click(object sender, EventArgs e)
@@ -99,19 +120,28 @@ namespace FormsCalculator
 
         private void btn_Minus_Click(object sender, EventArgs e)
         {
-            Result.NumericOperation.Add(OperationType.MINUS, Convert.ToDecimal(StringChain));
-            StringChain = String.Empty;
+            StringChain += "-";
+            //Result.NumericOperation.Add(OperationType.MINUS, Convert.ToDecimal(StringChain));
+            //StringChain = String.Empty;
         }
 
         private void btn_Plus_Click(object sender, EventArgs e)
         {
-            Result.NumericOperation.Add(OperationType.PLUS, Convert.ToDecimal(StringChain));
-            StringChain = String.Empty;
+            StringChain += "+";
+            //Result.NumericOperation.Add(OperationType.PLUS, Convert.ToDecimal(StringChain));
+            //StringChain = String.Empty;
         }
 
         private void btn_Calculate_Click(object sender, EventArgs e)
         {
-            StringChain = Result.Compute().ToString();
+            StringChain += "=";
+            //StringChain = Result.Compute().ToString();
+        }
+        private void btn_Cancel_Click(object sender, EventArgs e)
+        {
+            EnteringEnded = false;
+            StringChain = string.Empty;
+            lbl_Result.Text = string.Empty;
         }
     }
 

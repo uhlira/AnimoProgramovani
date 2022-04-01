@@ -47,8 +47,11 @@ namespace FormsCalculator
             this.btn_Minus = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
+            this.lbl_History = new System.Windows.Forms.Label();
             this.lbl_Result = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.btn_Cancel = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -58,6 +61,10 @@ namespace FormsCalculator
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
+            this.splitContainer3.Panel1.SuspendLayout();
+            this.splitContainer3.Panel2.SuspendLayout();
+            this.splitContainer3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -68,6 +75,7 @@ namespace FormsCalculator
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.Controls.Add(this.btn_Cancel, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.btn_0, 2, 7);
             this.tableLayoutPanel1.Controls.Add(this.btn_7, 1, 6);
             this.tableLayoutPanel1.Controls.Add(this.btn_8, 2, 6);
@@ -94,8 +102,7 @@ namespace FormsCalculator
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(567, 340);
-            this.tableLayoutPanel1.TabIndex = 0;
-            // 
+            this.tableLayoutPanel1.TabIndex = 0;            // 
             // btn_0
             // 
             this.btn_0.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -239,7 +246,6 @@ namespace FormsCalculator
             this.btn_Plus.Text = "+";
             this.btn_Plus.UseVisualStyleBackColor = true;
             this.btn_Plus.Click += new System.EventHandler(this.btn_Plus_Click);
-
             // 
             // btn_Minus
             // 
@@ -280,7 +286,7 @@ namespace FormsCalculator
             // 
             // splitContainer2.Panel1
             // 
-            this.splitContainer2.Panel1.Controls.Add(this.lbl_Result);
+            this.splitContainer2.Panel1.Controls.Add(this.splitContainer3);
             // 
             // splitContainer2.Panel2
             // 
@@ -289,6 +295,35 @@ namespace FormsCalculator
             this.splitContainer2.SplitterDistance = 263;
             this.splitContainer2.TabIndex = 0;
             // 
+            // splitContainer3
+            // 
+            this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer3.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer3.Name = "splitContainer3";
+            this.splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer3.Panel1
+            // 
+            this.splitContainer3.Panel1.Controls.Add(this.lbl_History);
+            // 
+            // splitContainer3.Panel2
+            // 
+            this.splitContainer3.Panel2.Controls.Add(this.lbl_Result);
+            this.splitContainer3.Size = new System.Drawing.Size(567, 263);
+            this.splitContainer3.SplitterDistance = 100;
+            this.splitContainer3.TabIndex = 1;
+            // 
+            // lbl_History
+            // 
+            this.lbl_History.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl_History.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_History.Location = new System.Drawing.Point(0, 0);
+            this.lbl_History.Name = "lbl_History";
+            this.lbl_History.Size = new System.Drawing.Size(567, 100);
+            this.lbl_History.TabIndex = 0;
+            this.lbl_History.Text = "label1";
+            this.lbl_History.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // lbl_Result
             // 
             this.lbl_Result.DataBindings.Add(new System.Windows.Forms.Binding("Text", this, "StringChain", true));
@@ -296,7 +331,7 @@ namespace FormsCalculator
             this.lbl_Result.Font = new System.Drawing.Font("SimSun", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Result.Location = new System.Drawing.Point(0, 0);
             this.lbl_Result.Name = "lbl_Result";
-            this.lbl_Result.Size = new System.Drawing.Size(567, 263);
+            this.lbl_Result.Size = new System.Drawing.Size(567, 159);
             this.lbl_Result.TabIndex = 0;
             this.lbl_Result.Text = "0";
             this.lbl_Result.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -319,6 +354,18 @@ namespace FormsCalculator
             this.tableLayoutPanel2.Size = new System.Drawing.Size(567, 54);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
+            // btn_Cancel
+            // 
+            this.btn_Cancel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Cancel.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Cancel.Location = new System.Drawing.Point(342, 45);
+            this.btn_Cancel.Name = "btn_Cancel";
+            this.btn_Cancel.Size = new System.Drawing.Size(107, 36);
+            this.btn_Cancel.TabIndex = 13;
+            this.btn_Cancel.Text = "C";
+            this.btn_Cancel.UseVisualStyleBackColor = true;
+            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
+            // 
             // CalculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -339,6 +386,10 @@ namespace FormsCalculator
             this.splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
+            this.splitContainer3.Panel1.ResumeLayout(false);
+            this.splitContainer3.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
+            this.splitContainer3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -363,6 +414,9 @@ namespace FormsCalculator
         private System.Windows.Forms.Button btn_Plus;
         private System.Windows.Forms.Button btn_Minus;
         private System.Windows.Forms.Label lbl_Result;
+        private SplitContainer splitContainer3;
+        private Label lbl_History;
+        private Button btn_Cancel;
     }
 }
 
