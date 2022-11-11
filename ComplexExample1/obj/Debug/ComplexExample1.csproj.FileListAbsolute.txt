@@ -1,0 +1,11 @@
+W:\School\AnimoProgramovani2\ComplexExample1\bin\Debug\ComplexExample1.exe.config
+W:\School\AnimoProgramovani2\ComplexExample1\bin\Debug\ComplexExample1.exe
+W:\School\AnimoProgramovani2\ComplexExample1\bin\Debug\ComplexExample1.pdb
+W:\School\AnimoProgramovani2\ComplexExample1\bin\Debug\Newtonsoft.Json.dll
+W:\School\AnimoProgramovani2\ComplexExample1\bin\Debug\Newtonsoft.Json.xml
+W:\School\AnimoProgramovani2\ComplexExample1\obj\Debug\ComplexExample1.csproj.AssemblyReference.cache
+W:\School\AnimoProgramovani2\ComplexExample1\obj\Debug\ComplexExample1.csproj.SuggestedBindingRedirects.cache
+W:\School\AnimoProgramovani2\ComplexExample1\obj\Debug\ComplexExample1.csproj.CoreCompileInputs.cache
+W:\School\AnimoProgramovani2\ComplexExample1\obj\Debug\ComplexExample1.csproj.CopyComplete
+W:\School\AnimoProgramovani2\ComplexExample1\obj\Debug\ComplexExample1.exe
+W:\School\AnimoProgramovani2\ComplexExample1\obj\Debug\ComplexExample1.pdb

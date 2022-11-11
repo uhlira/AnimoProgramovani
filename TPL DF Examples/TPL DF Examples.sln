@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL DF Examples", "TPL DF Examples.csproj", "{D30AD95C-D043-41B1-A460-AC053008F40C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D30AD95C-D043-41B1-A460-AC053008F40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D30AD95C-D043-41B1-A460-AC053008F40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D30AD95C-D043-41B1-A460-AC053008F40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D30AD95C-D043-41B1-A460-AC053008F40C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C8E1480-C1B9-4CC7-8593-D25905BF76DA}
+	EndGlobalSection
+EndGlobal

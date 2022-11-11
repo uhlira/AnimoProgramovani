@@ -32,6 +32,7 @@ namespace FormsCalculator
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.btn_Cancel = new System.Windows.Forms.Button();
             this.btn_0 = new System.Windows.Forms.Button();
             this.btn_7 = new System.Windows.Forms.Button();
             this.btn_8 = new System.Windows.Forms.Button();
@@ -51,7 +52,8 @@ namespace FormsCalculator
             this.lbl_History = new System.Windows.Forms.Label();
             this.lbl_Result = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.btn_Cancel = new System.Windows.Forms.Button();
+            this.btn_Multiple = new System.Windows.Forms.Button();
+            this.btn_Divide = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -75,6 +77,8 @@ namespace FormsCalculator
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.Controls.Add(this.btn_Divide, 4, 3);
+            this.tableLayoutPanel1.Controls.Add(this.btn_Multiple, 4, 4);
             this.tableLayoutPanel1.Controls.Add(this.btn_Cancel, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.btn_0, 2, 7);
             this.tableLayoutPanel1.Controls.Add(this.btn_7, 1, 6);
@@ -101,8 +105,22 @@ namespace FormsCalculator
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(567, 340);
-            this.tableLayoutPanel1.TabIndex = 0;            // 
+            this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // btn_Cancel
+            // 
+            this.btn_Cancel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Cancel.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Cancel.Location = new System.Drawing.Point(342, 45);
+            this.btn_Cancel.Name = "btn_Cancel";
+            this.btn_Cancel.Size = new System.Drawing.Size(107, 36);
+            this.btn_Cancel.TabIndex = 13;
+            this.btn_Cancel.Text = "C";
+            this.btn_Cancel.UseVisualStyleBackColor = true;
+            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
+            // 
             // btn_0
             // 
             this.btn_0.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -354,17 +372,29 @@ namespace FormsCalculator
             this.tableLayoutPanel2.Size = new System.Drawing.Size(567, 54);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // btn_Cancel
+            // btn_Multiple
             // 
-            this.btn_Cancel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Cancel.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Cancel.Location = new System.Drawing.Point(342, 45);
-            this.btn_Cancel.Name = "btn_Cancel";
-            this.btn_Cancel.Size = new System.Drawing.Size(107, 36);
-            this.btn_Cancel.TabIndex = 13;
-            this.btn_Cancel.Text = "C";
-            this.btn_Cancel.UseVisualStyleBackColor = true;
-            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
+            this.btn_Multiple.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Multiple.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Multiple.Location = new System.Drawing.Point(455, 171);
+            this.btn_Multiple.Name = "btn_Multiple";
+            this.btn_Multiple.Size = new System.Drawing.Size(109, 36);
+            this.btn_Multiple.TabIndex = 14;
+            this.btn_Multiple.Text = "x";
+            this.btn_Multiple.UseVisualStyleBackColor = true;
+            this.btn_Multiple.Click += new System.EventHandler(this.btn_Multiple_Click);
+            // 
+            // btn_Divide
+            // 
+            this.btn_Divide.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Divide.Font = new System.Drawing.Font("SimSun", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Divide.Location = new System.Drawing.Point(455, 129);
+            this.btn_Divide.Name = "btn_Divide";
+            this.btn_Divide.Size = new System.Drawing.Size(109, 36);
+            this.btn_Divide.TabIndex = 15;
+            this.btn_Divide.Text = "/";
+            this.btn_Divide.UseVisualStyleBackColor = true;
+            this.btn_Divide.Click += new System.EventHandler(this.btn_Divide_Click);
             // 
             // CalculatorForm
             // 
@@ -417,6 +447,8 @@ namespace FormsCalculator
         private SplitContainer splitContainer3;
         private Label lbl_History;
         private Button btn_Cancel;
+        private Button btn_Divide;
+        private Button btn_Multiple;
     }
 }
 

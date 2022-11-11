@@ -1,0 +1,58 @@
+[
+  {
+    "Vendor": "Škoda",
+    "LicensePlate": "5AC1234",
+    "DoorsCount": 5,
+    "PassangersCount": 5,
+    "Color": "Teal",
+    "Engine": 15
+  },
+  {
+    "Vendor": "Škoda",
+    "LicensePlate": "4E22381",
+    "DoorsCount": 5,
+    "PassangersCount": 5,
+    "Color": "AliceBlue",
+    "Engine": 25
+  },
+  {
+    "Vendor": "Mazda",
+    "LicensePlate": "4E79514",
+    "DoorsCount": 4,
+    "PassangersCount": 4,
+    "Color": "Black",
+    "Engine": 15
+  },
+  {
+    "Vendor": "BMW",
+    "LicensePlate": "8A21257",
+    "DoorsCount": 3,
+    "PassangersCount": 2,
+    "Color": "BlueViolet",
+    "Engine": 15
+  },
+  {
+    "Vendor": "Škoda",
+    "LicensePlate": "5B12471",
+    "DoorsCount": 5,
+    "PassangersCount": 5,
+    "Color": "Black",
+    "Engine": 15
+  },
+  {
+    "Vendor": "Renault",
+    "LicensePlate": "4T22381",
+    "DoorsCount": 4,
+    "PassangersCount": 4,
+    "Color": "AliceBlue",
+    "Engine": 15
+  },
+  {
+    "Vendor": "Škoda",
+    "LicensePlate": "5AC1234",
+    "DoorsCount": 5,
+    "PassangersCount": 5,
+    "Color": "Teal",
+    "Engine": 15
+  }
+]

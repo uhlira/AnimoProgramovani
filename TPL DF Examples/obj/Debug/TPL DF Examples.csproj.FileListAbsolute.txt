@@ -1,0 +1,11 @@
+W:\School\AnimoProgramovani2\TPL DF Examples\bin\Debug\TPL DF Examples.exe.config
+W:\School\AnimoProgramovani2\TPL DF Examples\bin\Debug\TPL DF Examples.exe
+W:\School\AnimoProgramovani2\TPL DF Examples\bin\Debug\TPL DF Examples.pdb
+W:\School\AnimoProgramovani2\TPL DF Examples\bin\Debug\System.Threading.Tasks.Dataflow.dll
+W:\School\AnimoProgramovani2\TPL DF Examples\bin\Debug\System.Threading.Tasks.Dataflow.xml
+W:\School\AnimoProgramovani2\TPL DF Examples\obj\Debug\TPL DF Examples.csproj.AssemblyReference.cache
+W:\School\AnimoProgramovani2\TPL DF Examples\obj\Debug\TPL DF Examples.csproj.SuggestedBindingRedirects.cache
+W:\School\AnimoProgramovani2\TPL DF Examples\obj\Debug\TPL DF Examples.csproj.CoreCompileInputs.cache
+W:\School\AnimoProgramovani2\TPL DF Examples\obj\Debug\TPL DF Examples.csproj.CopyComplete
+W:\School\AnimoProgramovani2\TPL DF Examples\obj\Debug\TPL DF Examples.exe
+W:\School\AnimoProgramovani2\TPL DF Examples\obj\Debug\TPL DF Examples.pdb

@@ -1,0 +1,12 @@
+W:\School\AnimoProgramovani2\SimpleFormsExample\bin\Debug\SimpleFormsExample.exe.config
+W:\School\AnimoProgramovani2\SimpleFormsExample\bin\Debug\SimpleFormsExample.exe
+W:\School\AnimoProgramovani2\SimpleFormsExample\bin\Debug\SimpleFormsExample.pdb
+W:\School\AnimoProgramovani2\SimpleFormsExample\obj\Debug\SimpleFormsExample.csproj.AssemblyReference.cache
+W:\School\AnimoProgramovani2\SimpleFormsExample\obj\Debug\SimpleFormsExample.csproj.SuggestedBindingRedirects.cache
+W:\School\AnimoProgramovani2\SimpleFormsExample\obj\Debug\SimpleFormsExample.Form1.resources
+W:\School\AnimoProgramovani2\SimpleFormsExample\obj\Debug\SimpleFormsExample.Properties.Resources.resources
+W:\School\AnimoProgramovani2\SimpleFormsExample\obj\Debug\SimpleFormsExample.csproj.GenerateResource.cache
+W:\School\AnimoProgramovani2\SimpleFormsExample\obj\Debug\SimpleFormsExample.csproj.CoreCompileInputs.cache
+W:\School\AnimoProgramovani2\SimpleFormsExample\obj\Debug\SimpleFormsExample.exe
+W:\School\AnimoProgramovani2\SimpleFormsExample\obj\Debug\SimpleFormsExample.pdb
+W:\School\AnimoProgramovani2\SimpleFormsExample\obj\Debug\SimpleFormsExample.Form2.resources

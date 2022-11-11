@@ -10,78 +10,34 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            try 
-            {
-                Console.Write("Zadej opcet opakovani vypoctu: ");
-                int pocet = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Zadej jmeno: ");
+            string name = Console.ReadLine();
 
-                //int cislo = 5;
-                /*
-                int[] poleCisel = new int[10];
-                
-                for (int i = 0; i < poleCisel.Length; i++)
-                {
-                    poleCisel[i] = i;
-                }
-                
-                for (int i = 0; i < poleCisel.Length; i++)
-                {
-                    Console.WriteLine(poleCisel[i]);
-                }
-                */
+            Console.WriteLine("Zadej prijmeni: ");
+            string surname = Console.ReadLine();
 
-                for (int i = 0; i < pocet; i++)
-                {
-                    Console.WriteLine("Zadej cislo 1");
-                    float cislo1 = Convert.ToSingle(Console.ReadLine());
+            Console.WriteLine("Zadej vek: ");
+            string agestring = Console.ReadLine();
+            int age = Convert.ToInt32(agestring);
 
-                    Console.WriteLine("Zadej cislo 2");
-                    float cislo2 = Convert.ToSingle(Console.ReadLine());
+            Console.WriteLine("Ahoj " + name + " " + surname + ", je ti " + age + " let");
+            Console.WriteLine("Za 10 let ti bude " + (age + 10)  + " let");
 
-                    Console.WriteLine("Zadej operaci (+ - * /)");
-                    string operace = Console.ReadLine();
-
-                    if (operace != "+" && operace != "-" && operace != "*" && operace != "/")
-                        //if(operace == "+" || operace == "-" || operace == "*" || operace == "/")
-                        Console.WriteLine("Zadali jste spatny typ operace !!!");
-                    else
-                        Console.WriteLine("Vysledek operace cisel je " + SpocitejVysledek(cislo1, cislo2, operace));
-                }
-
-                Console.WriteLine("Konec aplikace");
-            }
-            catch 
-            {
-                Console.WriteLine("Nezadali jste cislo, nashle");
-            }
-           
-            Console.ReadLine();
-        }
-
-        static float SpocitejVysledek(float number1, float number2, string operation) 
-        {
-            float vysledek;
-
-            switch (operation)
-            {
-                case "+":
-                    vysledek = number1 + number2;
-                    break;
-                case "-":
-                    vysledek = number1 - number2;
-                    break;
-                case "*":
-                    vysledek = number1 * number2;
-                    break;
-                case "/":
-                    vysledek = number1 / number2;
-                    break;
-                default:
-                    vysledek = int.MinValue;
-                    break;
-            }
-
-            return vysledek;
+            Console.ReadKey();
         }
     }
 }
+
+/*
+            int number1 = 10;
+            int number1 = 5;
+
+            if (number1 > number2)
+            {
+
+            }
+            else 
+            {
+            
+            }
+            */
