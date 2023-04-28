@@ -1,0 +1,8 @@
+W:\School\AnimoProgramovani2\2023\New folder\HelloWorld\bin\Debug\HelloWorld.exe.config
+W:\School\AnimoProgramovani2\2023\New folder\HelloWorld\bin\Debug\HelloWorld.exe
+W:\School\AnimoProgramovani2\2023\New folder\HelloWorld\bin\Debug\HelloWorld.pdb
+W:\School\AnimoProgramovani2\2023\New folder\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+W:\School\AnimoProgramovani2\2023\New folder\HelloWorld\obj\Debug\HelloWorld.csproj.SuggestedBindingRedirects.cache
+W:\School\AnimoProgramovani2\2023\New folder\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+W:\School\AnimoProgramovani2\2023\New folder\HelloWorld\obj\Debug\HelloWorld.exe
+W:\School\AnimoProgramovani2\2023\New folder\HelloWorld\obj\Debug\HelloWorld.pdb

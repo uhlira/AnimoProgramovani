@@ -1,0 +1,8 @@
+W:\School\AnimoProgramovani2\2023\Warrior\bin\Debug\Warrior.exe.config
+W:\School\AnimoProgramovani2\2023\Warrior\bin\Debug\Warrior.exe
+W:\School\AnimoProgramovani2\2023\Warrior\bin\Debug\Warrior.pdb
+W:\School\AnimoProgramovani2\2023\Warrior\obj\Debug\Warrior.csproj.AssemblyReference.cache
+W:\School\AnimoProgramovani2\2023\Warrior\obj\Debug\Warrior.csproj.SuggestedBindingRedirects.cache
+W:\School\AnimoProgramovani2\2023\Warrior\obj\Debug\Warrior.csproj.CoreCompileInputs.cache
+W:\School\AnimoProgramovani2\2023\Warrior\obj\Debug\Warrior.exe
+W:\School\AnimoProgramovani2\2023\Warrior\obj\Debug\Warrior.pdb

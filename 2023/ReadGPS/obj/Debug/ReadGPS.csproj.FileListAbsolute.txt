@@ -1,0 +1,8 @@
+W:\School\AnimoProgramovani2\2023\ReadGPS\bin\Debug\ReadGPS.exe.config
+W:\School\AnimoProgramovani2\2023\ReadGPS\bin\Debug\ReadGPS.exe
+W:\School\AnimoProgramovani2\2023\ReadGPS\bin\Debug\ReadGPS.pdb
+W:\School\AnimoProgramovani2\2023\ReadGPS\obj\Debug\ReadGPS.csproj.AssemblyReference.cache
+W:\School\AnimoProgramovani2\2023\ReadGPS\obj\Debug\ReadGPS.csproj.SuggestedBindingRedirects.cache
+W:\School\AnimoProgramovani2\2023\ReadGPS\obj\Debug\ReadGPS.csproj.CoreCompileInputs.cache
+W:\School\AnimoProgramovani2\2023\ReadGPS\obj\Debug\ReadGPS.exe
+W:\School\AnimoProgramovani2\2023\ReadGPS\obj\Debug\ReadGPS.pdb
