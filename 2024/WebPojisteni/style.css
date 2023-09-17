@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+article {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 50px 50px 10px 50px;
+}
+
+article h1,
+article h3 {
+  padding: 10px 0;
+  color: #005f6b;
+}
+
+
+article h1 {
+  margin: 0;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: max-content;
+  border-bottom: 4px solid #ef6534;
+}
+article h3 {
+  font-size: 2em;
+}
+
+article header {
+  height: 80px;
+}
+
+article section p {
+  margin-bottom: 1.5em;
+  line-height: 1em;
+}
+article section a {
+  color: #ffffff;
+}
+
+.odeslat-tlacitko {
+  background: #ef6534;
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-left: 438px;
+}
+.odeslat-tlacitko:hover,
+.odeslat-:hover {
+  border: 20;
+}
+
+body > header {
+  height: 100px;
+  width: 100%;
+  background: #005f6b;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+  top: 0;
+  position: fixed;
+}
+
+ h1 {
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  color: white;
+}
+h1 span {
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  color: white;
+}
+
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+nav ul li {
+  padding: 0 25px;
+  margin: 0 5px;
+  font-size: 1em;
+  line-height: 4.3em;
+}
+nav ul a {
+  color: white;
+  padding: 8px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav ul a:hover,
+.aktivni a {
+  border-bottom: 2px solid #ef6534;
+}
+
+form {
+  width: 700px;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+  margin:0;
+}
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Styly pro zobrazení dat */
+table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 0 auto;
+		min-width: 650px;
+    }
+
+td {
+	border: 1px solid #ccc;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	border: 1px solid #ccc;
+	padding: 8px;
+	text-align: left;
+	
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: #ddd;
+}
+
+table button {
+	background: #ef6534;
+	padding: 3px 10px;
+	border-radius: 5px;
+	color: white;
+	text-decoration: underline;
+	border: none;
+}
+
+table button:hover {
+	cursor: pointer;
+}
+
+.record {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.record h4 {
+  margin: 0;
+  color: #005f6b;
+}
+
+.record p {
+  margin: 5px 0;
+}
+
+section {
+  padding: 5px 20px;
+  margin-bottom: 40px;
+}
+
+#registration-section {
+  margin-top: 50px;
+  display: none;
+  padding-left: 5%;
+}
+
+.evidence-section {
+  display: none;
+  padding-left: 50px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+#info-section {
+  text-align: left;
+  margin-top: 40px;
+}
+
+#kontakt-section {
+  margin-top: 40px;
+  text-align: left;
+}
+
+#kontakt-section p{
+  margin: 0px;
+}
+
+iframe
+{
+	margin-top: 50px;
+}
