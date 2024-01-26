@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uVi7nrWSQb774ITKJpPAFOQZ87MnGzmsshFwmokl7o4R0HXmbJOGvZemdlpc6A1KtjDA0XmgcFYJRpe540HTiQ==",
+  "success": true,
+  "projectFilePath": "W:\\School\\AnimoProgramovani2\\2024\\BlazorAppTest\\BlazorAppTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adam Uhlir\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -5,3 +5,4 @@ W:\School\AnimoProgramovani2\VolebniPristroj\obj\Debug\VolebniPristroj.csproj.Co
 W:\School\AnimoProgramovani2\VolebniPristroj\obj\Debug\VolebniPristroj.exe
 W:\School\AnimoProgramovani2\VolebniPristroj\obj\Debug\VolebniPristroj.pdb
 W:\School\AnimoProgramovani2\VolebniPristroj\obj\Debug\VolebniPristroj.csproj.AssemblyReference.cache
+W:\School\AnimoProgramovani2\VolebniPristroj\obj\Debug\VolebniPristroj.csproj.SuggestedBindingRedirects.cache

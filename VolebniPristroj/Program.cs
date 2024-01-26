@@ -20,8 +20,26 @@ namespace VolebniPristroj
 
             Console.WriteLine("Můžete vybírat z těchto stran");
 
-            //string[] parties = LoadParties(FILENAME);  
+            //string[] parties = LoadParties(FILENAME);
             string[] parties = new string[] { "ANO", "TOP095614145814", "ODS", "Piráti" };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             if (parties != null)
             {
                 PrintParties(parties);

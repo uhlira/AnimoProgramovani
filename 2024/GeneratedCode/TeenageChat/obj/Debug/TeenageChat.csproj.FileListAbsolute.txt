@@ -1,0 +1,8 @@
+W:\School\AnimoProgramovani2\2024\GeneratedCode\TeenageChat\bin\Debug\TeenageChat.exe.config
+W:\School\AnimoProgramovani2\2024\GeneratedCode\TeenageChat\bin\Debug\TeenageChat.exe
+W:\School\AnimoProgramovani2\2024\GeneratedCode\TeenageChat\bin\Debug\TeenageChat.pdb
+W:\School\AnimoProgramovani2\2024\GeneratedCode\TeenageChat\obj\Debug\TeenageChat.csproj.AssemblyReference.cache
+W:\School\AnimoProgramovani2\2024\GeneratedCode\TeenageChat\obj\Debug\TeenageChat.csproj.SuggestedBindingRedirects.cache
+W:\School\AnimoProgramovani2\2024\GeneratedCode\TeenageChat\obj\Debug\TeenageChat.csproj.CoreCompileInputs.cache
+W:\School\AnimoProgramovani2\2024\GeneratedCode\TeenageChat\obj\Debug\TeenageChat.exe
+W:\School\AnimoProgramovani2\2024\GeneratedCode\TeenageChat\obj\Debug\TeenageChat.pdb

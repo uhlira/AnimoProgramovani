@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9weWSAshTfHiuvdpp162qgaAtVKjZ0L8m8JMm4Kr4AcG7G6Hv4cEt31bp5Sr7rhgMJD/DtVMlhhATyv0z4iYrA==",
+  "success": true,
+  "projectFilePath": "W:\\School\\AnimoProgramovani2\\2024\\Logger\\NET\\Logger\\Logger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adam Uhlir\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
