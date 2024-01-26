@@ -11,16 +11,38 @@ namespace VotingMachine
         static void Main(string[] args)
         {
             Console.WriteLine("How many parties would you like to vote for?");
-            int count = 0;//Precteni poctu stran od uzivatele
+            int count = Convert.ToInt32(Console.ReadLine());
 
             string[] parties = new string[count];
+            int[] votes = new int[count];
 
-            for (int i = 0; i < count; i++)
+            Console.WriteLine("What party would you like to vote for?");
+            try
+            {
+                while (true)
+                {
+                    int vote = Convert.ToInt32(Console.ReadLine());
+                    if (vote >= parties.Length)
+                    {
+                        throw new Exception("Use only existing party!");
+                    }
+
+                    votes[vote] = votes[vote]++;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("You did something wrong!");
+            }
+
+
+            /*
+            for (int i = 0; i < parties.Length; i++)
             {
                 //postupne nacteni jmen a ulozeni do pole
                 parties[i] = "";
             }
-
+            */
 
             #region Voting
             /*
