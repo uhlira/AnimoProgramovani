@@ -1,0 +1,7 @@
+C:\Users\Uhlir\Documents\krouzek\test\SimpleCalendar\SimpleCalendar\bin\Debug\SimpleCalendar.exe.config
+C:\Users\Uhlir\Documents\krouzek\test\SimpleCalendar\SimpleCalendar\bin\Debug\SimpleCalendar.exe
+C:\Users\Uhlir\Documents\krouzek\test\SimpleCalendar\SimpleCalendar\bin\Debug\SimpleCalendar.pdb
+C:\Users\Uhlir\Documents\krouzek\test\SimpleCalendar\SimpleCalendar\obj\Debug\SimpleCalendar.csprojAssemblyReference.cache
+C:\Users\Uhlir\Documents\krouzek\test\SimpleCalendar\SimpleCalendar\obj\Debug\SimpleCalendar.csproj.CoreCompileInputs.cache
+C:\Users\Uhlir\Documents\krouzek\test\SimpleCalendar\SimpleCalendar\obj\Debug\SimpleCalendar.exe
+C:\Users\Uhlir\Documents\krouzek\test\SimpleCalendar\SimpleCalendar\obj\Debug\SimpleCalendar.pdb

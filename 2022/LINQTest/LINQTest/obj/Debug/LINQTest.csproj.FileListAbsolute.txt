@@ -1,0 +1,7 @@
+C:\Users\Uhlir\Documents\krouzek\test\LINQTest\LINQTest\bin\Debug\LINQTest.exe.config
+C:\Users\Uhlir\Documents\krouzek\test\LINQTest\LINQTest\bin\Debug\LINQTest.exe
+C:\Users\Uhlir\Documents\krouzek\test\LINQTest\LINQTest\bin\Debug\LINQTest.pdb
+C:\Users\Uhlir\Documents\krouzek\test\LINQTest\LINQTest\obj\Debug\LINQTest.csprojAssemblyReference.cache
+C:\Users\Uhlir\Documents\krouzek\test\LINQTest\LINQTest\obj\Debug\LINQTest.csproj.CoreCompileInputs.cache
+C:\Users\Uhlir\Documents\krouzek\test\LINQTest\LINQTest\obj\Debug\LINQTest.exe
+C:\Users\Uhlir\Documents\krouzek\test\LINQTest\LINQTest\obj\Debug\LINQTest.pdb

@@ -1,7 +1,0 @@
-C:\Users\Uhlir\Documents\krouzek\test\CharPrinter\bin\Debug\CharPrinter.exe.config
-C:\Users\Uhlir\Documents\krouzek\test\CharPrinter\bin\Debug\CharPrinter.exe
-C:\Users\Uhlir\Documents\krouzek\test\CharPrinter\bin\Debug\CharPrinter.pdb
-C:\Users\Uhlir\Documents\krouzek\test\CharPrinter\obj\Debug\CharPrinter.csproj.CoreCompileInputs.cache
-C:\Users\Uhlir\Documents\krouzek\test\CharPrinter\obj\Debug\CharPrinter.exe
-C:\Users\Uhlir\Documents\krouzek\test\CharPrinter\obj\Debug\CharPrinter.pdb
-C:\Users\Uhlir\Documents\krouzek\test\CharPrinter\obj\Debug\CharPrinter.csprojAssemblyReference.cache

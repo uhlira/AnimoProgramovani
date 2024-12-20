@@ -1,7 +1,0 @@
-W:\School\AnimoProgramovani2\CustomDataStructures\obj\Debug\CustomDataStructures.csproj.AssemblyReference.cache
-W:\School\AnimoProgramovani2\CustomDataStructures\obj\Debug\CustomDataStructures.csproj.CoreCompileInputs.cache
-W:\School\AnimoProgramovani2\CustomDataStructures\bin\Debug\CustomDataStructures.exe.config
-W:\School\AnimoProgramovani2\CustomDataStructures\bin\Debug\CustomDataStructures.exe
-W:\School\AnimoProgramovani2\CustomDataStructures\bin\Debug\CustomDataStructures.pdb
-W:\School\AnimoProgramovani2\CustomDataStructures\obj\Debug\CustomDataStructures.exe
-W:\School\AnimoProgramovani2\CustomDataStructures\obj\Debug\CustomDataStructures.pdb

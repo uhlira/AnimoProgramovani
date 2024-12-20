@@ -1,7 +1,0 @@
-W:\School\AnimoProgramovani2\Algoritmy\Recursive\bin\Debug\Recursive.exe.config
-W:\School\AnimoProgramovani2\Algoritmy\Recursive\bin\Debug\Recursive.exe
-W:\School\AnimoProgramovani2\Algoritmy\Recursive\bin\Debug\Recursive.pdb
-W:\School\AnimoProgramovani2\Algoritmy\Recursive\obj\Debug\Recursive.csprojAssemblyReference.cache
-W:\School\AnimoProgramovani2\Algoritmy\Recursive\obj\Debug\Recursive.csproj.CoreCompileInputs.cache
-W:\School\AnimoProgramovani2\Algoritmy\Recursive\obj\Debug\Recursive.exe
-W:\School\AnimoProgramovani2\Algoritmy\Recursive\obj\Debug\Recursive.pdb

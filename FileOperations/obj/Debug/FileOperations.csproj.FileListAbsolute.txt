@@ -1,7 +1,0 @@
-W:\School\AnimoProgramovani2\FileOperations\bin\Debug\FileOperations.exe.config
-W:\School\AnimoProgramovani2\FileOperations\bin\Debug\FileOperations.exe
-W:\School\AnimoProgramovani2\FileOperations\bin\Debug\FileOperations.pdb
-W:\School\AnimoProgramovani2\FileOperations\obj\Debug\FileOperations.csproj.AssemblyReference.cache
-W:\School\AnimoProgramovani2\FileOperations\obj\Debug\FileOperations.csproj.CoreCompileInputs.cache
-W:\School\AnimoProgramovani2\FileOperations\obj\Debug\FileOperations.exe
-W:\School\AnimoProgramovani2\FileOperations\obj\Debug\FileOperations.pdb

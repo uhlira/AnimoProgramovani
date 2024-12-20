@@ -1,7 +1,0 @@
-W:\School\AnimoProgramovani2\Calculator\bin\Release\Calculator.exe.config
-W:\School\AnimoProgramovani2\Calculator\bin\Release\Calculator.exe
-W:\School\AnimoProgramovani2\Calculator\bin\Release\Calculator.pdb
-W:\School\AnimoProgramovani2\Calculator\obj\Release\Calculator.csproj.AssemblyReference.cache
-W:\School\AnimoProgramovani2\Calculator\obj\Release\Calculator.csproj.CoreCompileInputs.cache
-W:\School\AnimoProgramovani2\Calculator\obj\Release\Calculator.exe
-W:\School\AnimoProgramovani2\Calculator\obj\Release\Calculator.pdb

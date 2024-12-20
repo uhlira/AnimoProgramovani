@@ -1,7 +1,0 @@
-W:\School\AnimoProgramovani2\Kalkulacka2\bin\Debug\Kalkulacka2.exe.config
-W:\School\AnimoProgramovani2\Kalkulacka2\bin\Debug\Kalkulacka2.exe
-W:\School\AnimoProgramovani2\Kalkulacka2\bin\Debug\Kalkulacka2.pdb
-W:\School\AnimoProgramovani2\Kalkulacka2\obj\Debug\Kalkulacka2.csproj.AssemblyReference.cache
-W:\School\AnimoProgramovani2\Kalkulacka2\obj\Debug\Kalkulacka2.csproj.CoreCompileInputs.cache
-W:\School\AnimoProgramovani2\Kalkulacka2\obj\Debug\Kalkulacka2.exe
-W:\School\AnimoProgramovani2\Kalkulacka2\obj\Debug\Kalkulacka2.pdb

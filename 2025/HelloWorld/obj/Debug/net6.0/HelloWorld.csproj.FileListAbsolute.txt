@@ -1,0 +1,15 @@
+W:\School\Animo\Programovani2025\HelloWorld\bin\Debug\net6.0\HelloWorld.exe
+W:\School\Animo\Programovani2025\HelloWorld\bin\Debug\net6.0\HelloWorld.deps.json
+W:\School\Animo\Programovani2025\HelloWorld\bin\Debug\net6.0\HelloWorld.runtimeconfig.json
+W:\School\Animo\Programovani2025\HelloWorld\bin\Debug\net6.0\HelloWorld.dll
+W:\School\Animo\Programovani2025\HelloWorld\bin\Debug\net6.0\HelloWorld.pdb
+W:\School\Animo\Programovani2025\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.AssemblyReference.cache
+W:\School\Animo\Programovani2025\HelloWorld\obj\Debug\net6.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+W:\School\Animo\Programovani2025\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfoInputs.cache
+W:\School\Animo\Programovani2025\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfo.cs
+W:\School\Animo\Programovani2025\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CoreCompileInputs.cache
+W:\School\Animo\Programovani2025\HelloWorld\obj\Debug\net6.0\HelloWorld.dll
+W:\School\Animo\Programovani2025\HelloWorld\obj\Debug\net6.0\refint\HelloWorld.dll
+W:\School\Animo\Programovani2025\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
+W:\School\Animo\Programovani2025\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
+W:\School\Animo\Programovani2025\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll
